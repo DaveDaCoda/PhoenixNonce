@@ -18,6 +18,21 @@
 		87F42C391F44C196001F0724 /* find.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F42C321F44C196001F0724 /* find.m */; };
 		87F42C3A1F44C196001F0724 /* nvpatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F42C351F44C196001F0724 /* nvpatch.m */; };
 		87F42C3B1F44C196001F0724 /* set.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F42C371F44C196001F0724 /* set.m */; };
+		CE4AA98D20683D06008C62C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA98C20683D06008C62C2 /* UIKit.framework */; };
+		CE4AA9A0206CD476008C62C2 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA990206CD473008C62C2 /* libz.a */; };
+		CE4AA9A4206CD476008C62C2 /* libmbedtls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA994206CD474008C62C2 /* libmbedtls.a */; };
+		CE4AA9A5206CD476008C62C2 /* libmbedx509.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA995206CD475008C62C2 /* libmbedx509.a */; };
+		CE4AA9A6206CD476008C62C2 /* libsigar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA996206CD475008C62C2 /* libsigar.a */; };
+		CE4AA9A7206CD476008C62C2 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA997206CD475008C62C2 /* libcurl.a */; };
+		CE4AA9A8206CD476008C62C2 /* libmettle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA998206CD475008C62C2 /* libmettle.a */; };
+		CE4AA9AA206CD476008C62C2 /* libdnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA99A206CD475008C62C2 /* libdnet.a */; };
+		CE4AA9AB206CD476008C62C2 /* libeio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA99B206CD476008C62C2 /* libeio.a */; };
+		CE4AA9AC206CD476008C62C2 /* libev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA99C206CD476008C62C2 /* libev.a */; };
+		CE4AA9AD206CD476008C62C2 /* libmbedcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA99D206CD476008C62C2 /* libmbedcrypto.a */; };
+		CE4AA9AF206CD61C008C62C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA9AE206CD61C008C62C2 /* AVFoundation.framework */; };
+		CE4AA9B1206CD633008C62C2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA9B0206CD633008C62C2 /* CoreImage.framework */; };
+		CE4AA9B3206CD650008C62C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA9B2206CD650008C62C2 /* CoreGraphics.framework */; };
+		CE4AA9B5206CD6CB008C62C2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AA9B4206CD6CB008C62C2 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +56,21 @@
 		87F42C351F44C196001F0724 /* nvpatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nvpatch.m; sourceTree = "<group>"; };
 		87F42C361F44C196001F0724 /* set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set.h; sourceTree = "<group>"; };
 		87F42C371F44C196001F0724 /* set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = set.m; sourceTree = "<group>"; };
+		CE4AA98C20683D06008C62C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE4AA990206CD473008C62C2 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libz.a"; sourceTree = "<group>"; };
+		CE4AA994206CD474008C62C2 /* libmbedtls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedtls.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libmbedtls.a"; sourceTree = "<group>"; };
+		CE4AA995206CD475008C62C2 /* libmbedx509.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedx509.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libmbedx509.a"; sourceTree = "<group>"; };
+		CE4AA996206CD475008C62C2 /* libsigar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsigar.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libsigar.a"; sourceTree = "<group>"; };
+		CE4AA997206CD475008C62C2 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libcurl.a"; sourceTree = "<group>"; };
+		CE4AA998206CD475008C62C2 /* libmettle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmettle.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libmettle.a"; sourceTree = "<group>"; };
+		CE4AA99A206CD475008C62C2 /* libdnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdnet.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libdnet.a"; sourceTree = "<group>"; };
+		CE4AA99B206CD476008C62C2 /* libeio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeio.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libeio.a"; sourceTree = "<group>"; };
+		CE4AA99C206CD476008C62C2 /* libev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libev.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libev.a"; sourceTree = "<group>"; };
+		CE4AA99D206CD476008C62C2 /* libmbedcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedcrypto.a; path = "../../../rsync/mettle/build/aarch64-iphone-darwin/lib/libmbedcrypto.a"; sourceTree = "<group>"; };
+		CE4AA9AE206CD61C008C62C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE4AA9B0206CD633008C62C2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CE4AA9B2206CD650008C62C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE4AA9B4206CD6CB008C62C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +78,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4AA9B5206CD6CB008C62C2 /* CoreMedia.framework in Frameworks */,
+				CE4AA9B3206CD650008C62C2 /* CoreGraphics.framework in Frameworks */,
+				CE4AA9B1206CD633008C62C2 /* CoreImage.framework in Frameworks */,
+				CE4AA9AF206CD61C008C62C2 /* AVFoundation.framework in Frameworks */,
+				CE4AA9A6206CD476008C62C2 /* libsigar.a in Frameworks */,
+				CE4AA9AC206CD476008C62C2 /* libev.a in Frameworks */,
+				CE4AA9A7206CD476008C62C2 /* libcurl.a in Frameworks */,
+				CE4AA9AA206CD476008C62C2 /* libdnet.a in Frameworks */,
+				CE4AA9A0206CD476008C62C2 /* libz.a in Frameworks */,
+				CE4AA9A5206CD476008C62C2 /* libmbedx509.a in Frameworks */,
+				CE4AA9A8206CD476008C62C2 /* libmettle.a in Frameworks */,
+				CE4AA9A4206CD476008C62C2 /* libmbedtls.a in Frameworks */,
+				CE4AA98D20683D06008C62C2 /* UIKit.framework in Frameworks */,
 				684DF4B51F44CF4300F47447 /* IOKit.framework in Frameworks */,
+				CE4AA9AD206CD476008C62C2 /* libmbedcrypto.a in Frameworks */,
+				CE4AA9AB206CD476008C62C2 /* libeio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +132,16 @@
 		877D1ED31F3E1FF400C60D67 = {
 			isa = PBXGroup;
 			children = (
+				CE4AA997206CD475008C62C2 /* libcurl.a */,
+				CE4AA99A206CD475008C62C2 /* libdnet.a */,
+				CE4AA99B206CD476008C62C2 /* libeio.a */,
+				CE4AA99C206CD476008C62C2 /* libev.a */,
+				CE4AA99D206CD476008C62C2 /* libmbedcrypto.a */,
+				CE4AA994206CD474008C62C2 /* libmbedtls.a */,
+				CE4AA995206CD475008C62C2 /* libmbedx509.a */,
+				CE4AA998206CD475008C62C2 /* libmettle.a */,
+				CE4AA996206CD475008C62C2 /* libsigar.a */,
+				CE4AA990206CD473008C62C2 /* libz.a */,
 				877D1EDE1F3E1FF500C60D67 /* PhoenixNonce */,
 				877D1EDD1F3E1FF500C60D67 /* Products */,
 				87F42C3C1F44C222001F0724 /* Frameworks */,
@@ -124,6 +179,11 @@
 		87F42C3C1F44C222001F0724 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE4AA9B4206CD6CB008C62C2 /* CoreMedia.framework */,
+				CE4AA9B2206CD650008C62C2 /* CoreGraphics.framework */,
+				CE4AA9B0206CD633008C62C2 /* CoreImage.framework */,
+				CE4AA9AE206CD61C008C62C2 /* AVFoundation.framework */,
+				CE4AA98C20683D06008C62C2 /* UIKit.framework */,
 				684DF4B41F44CF4300F47447 /* IOKit.framework */,
 			);
 			name = Frameworks;
@@ -258,6 +318,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -275,6 +336,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "/Users/user/rsync/mettle/build/aarch64-iphone-darwin/lib";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -307,6 +369,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -318,6 +381,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "/Users/user/rsync/mettle/build/aarch64-iphone-darwin/lib";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,8 +396,16 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XXXXXXXXXX;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/PhoenixNonce";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PhoenixNonce/Headers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoenixNonce",
+					"/Users/user/rsync/mettle/build/aarch64-iphone-darwin/include",
+					"~/rsync/mettle/build/aarch64-iphone-darwin/include",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoenixNonce/Headers",
+					"/Users/user/rsync/mettle/build/aarch64-iphone-darwin/include",
+					/Users/user/rsync/mettle/mettle/src,
+				);
 				INFOPLIST_FILE = PhoenixNonce/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -350,8 +422,16 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XXXXXXXXXX;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/PhoenixNonce";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/PhoenixNonce/Headers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoenixNonce",
+					"/Users/user/rsync/mettle/build/aarch64-iphone-darwin/include",
+					"~/rsync/mettle/build/aarch64-iphone-darwin/include",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/PhoenixNonce/Headers",
+					"/Users/user/rsync/mettle/build/aarch64-iphone-darwin/include",
+					/Users/user/rsync/mettle/mettle/src,
+				);
 				INFOPLIST_FILE = PhoenixNonce/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
